@@ -1,0 +1,13 @@
+@import url(page-header.css);
+
+.base {
+    font-family: "Domine Regular", "Times New Roman Regular", serif;
+    color: #838b8c;
+}
+.container {
+    width: 1140px;
+}
+
+.center-horizontal {
+    margin: 0 auto;
+}
