@@ -1,4 +1,4 @@
-@import url(page-header.css);
+@import url(bel.css);
 
 .base {
     font-family: "Domine Regular", "Times New Roman Regular", serif;
@@ -11,3 +11,20 @@
 .center-horizontal {
     margin: 0 auto;
 }
+
+.zoom:hover {
+    zoom: 1.1;
+
+}
+.opacity-img {
+    opacity: 0.5;
+}
+
+.opacity-img:hover {
+    opacity: 1;
+}
+
+.border {
+    border-top: 1px solid #03b6e7;
+}
+
