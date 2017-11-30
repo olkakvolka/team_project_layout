@@ -11,3 +11,20 @@
 .center-horizontal {
     margin: 0 auto;
 }
+.float-left {
+    float: left;
+}
+.float-right {
+    float: right;
+}
+.inline-block {
+    display: inline-block;
+}
+.text-center {
+    text-align: center;
+}
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
