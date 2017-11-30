@@ -25,7 +25,7 @@
 }
 
 .footer-title {
-    font-family: Montserrat, "Times New Roman", sans-serif;
+    font-family: Montserrat, Arial, sans-serif;
     color: #e1e1e1;
     font-weight: 700;
     text-transform: uppercase;
@@ -50,7 +50,7 @@
 .footer-nav-link,
 .footer-industry-link {
     text-decoration: none;
-    font-family: Montserrat, "Times New Roman", sans-serif;
+    font-family: Montserrat, "Times New Roman", sans-serif;   /* TODO: указаны шрифты из разный семеств; */
     font-size: 13px;
     color: #838b8c;
     text-transform: uppercase;
@@ -67,7 +67,7 @@
     color: #838b8c;
 }
 
-.footer-subscribe-input-wrap {
+.footer-subscribe-input-wrap {  /* TODO: может стоит сделaть отдельным классом на подобии float-left?*/
     display: flex;
 }
 

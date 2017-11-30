@@ -47,16 +47,9 @@
     text-decoration: underline;
 }
 
-.contact-item-title {
-    font-family: Montserrat, "Times New Roman", sans-serif;
-    text-transform: uppercase;
-    font-size: 18px;
-    font-weight: 700;
-    color: #343a3b;
-    letter-spacing: -0.9px;
+.contact-item-title {        
     margin-bottom: 8px;
 }
-
 .contact-item-text {
     color: #343a3b;
     font-size: 18px;
