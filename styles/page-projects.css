@@ -1,0 +1,46 @@
+.project-button {
+    font-size: 12px;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    border-width: 2px;
+    border-color: rgb(255, 172, 86);
+    border-style: solid;  
+    text-transform: uppercase;
+    line-height: 2.75;  
+}
+.project-narrow {
+      float: left;
+}
+.project-narrow-image {
+    width: 358px;
+    height: 294px;
+}
+.project-narrow-container {
+    width: 356px;
+    height: 170px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(218, 229, 232);  
+}
+.project-narrow-container:hover {
+    background-color: rgb(246, 150, 27);
+    color: rgb(255, 255, 255);
+}
+.project-wide {
+    float: right;
+}
+.project-wide-image {
+  width: 749px;
+  height: 294px;  
+}
+.project-wide-container {
+  width: 748px;
+  height: 172px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(218, 229, 232);
+}
+.project-wide-container:hover {
+    background-color: rgb(246, 150, 27);
+    color: rgb(255, 255, 255);
+}
