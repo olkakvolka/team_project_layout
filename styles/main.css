@@ -10,7 +10,7 @@
 /* ---- GLOBAL STYLES ---- */
 
 .base {
-    font-family: "Domine Regular", "Times New Roman Regular", serif;
+    font-family: Domine, "Times New Roman Regular", serif;
     color: #838b8c;
 }
 
@@ -22,40 +22,147 @@
     margin: 0 auto;
 }
 
-ul, li {
+.float-left {
+    float: left;
+}
+.float-right {
+    float: right;
+}
+.inline-block {
+    display: inline-block;
+}
+.text-center {                   
+    text-align: center;
+}
+.text-uppercase {
+    text-transform: uppercase;
+}
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+ul, li {        /* TODO: оставим селектор на класс?  если да, оля, отрредактируй .menu-decoration*/
      margin: 0;
      padding: 0;
      list-style: none;
 }
 
 .section-title {
-    font-family: Montserrat, "Times New Roman", sans-serif;
+    font-family: Montserrat, Arial, sans-serif;
     font-size: 32px;
     font-weight: 700;
     color: #343a3b;
-    text-align: center;
-    text-transform: uppercase;
     letter-spacing: -1.6px;
 }
 
 .btn {
-    font-family: Montserrat, "Times New Roman", sans-serif;
+    font-family: Montserrat, Arial, sans-serif;
     font-size: 13px;
     background-color: #16d428;
     text-decoration: none;
-    text-transform: uppercase;
     color: #fff;
     padding: 15px 25px;
     border-radius: 30px;
-    display: inline-block;
 }
 
 .btn:hover {
     background-color: #13b422;
 }
 
+.button-main {
+    font-size: 13px;
+    font-family: Montserrat, Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    background-color: rgb(22, 212, 40);
+    line-height: 2.308;
+}
 
+.sub-section-title-decoration {
+    font-size: 18px;
+    font-family: Montserrat, Arial, sans-serif;
+    color: #343a3b;
+    font-weight: 700;
+    letter-spacing: -0.9px;
+}
+.sub-section-title {     /* TODO: вынести в настины стили */
+    line-height: 1.833;
+    text-align: left;     
+}
 
+.section-content {   /* TODO: стиль должен подойти и для димы с валентином*/
+    font-size: 15px;
+    font-family: Domine, "Times New Roman Regular", serif;
+    color: rgb(131, 139, 140);
+    line-height: 1.867;
+    text-align: left;  
+}
 
+/* Project section */
 
+.project-button {
+    font-size: 12px;
+    font-family: Montserrat, Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    border-width: 2px;
+    border-color: rgb(255, 172, 86);
+    border-style: solid;  
+    text-transform: uppercase;
+    line-height: 2.75;  
+}
+.project-narrow {    /* TODO: есть стиль .float-left */
+      float: left;
+}
+.project-narrow-image {
+    width: 358px;
+    height: 294px;
+}
+.project-narrow-container {
+    width: 356px;
+    height: 170px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(218, 229, 232);  
+}
+.project-narrow-container:hover {
+    background-color: rgb(246, 150, 27);
+    color: rgb(255, 255, 255);
+}
+.project-wide {  /* TODO: есть стиль .float-right */
+    float: right;
+}
+.project-wide-image {
+  width: 749px;
+  height: 294px;  
+}
+.project-wide-container {
+  width: 748px;
+  height: 172px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(218, 229, 232);
+}
+.project-wide-container:hover {
+    background-color: rgb(246, 150, 27);
+    color: rgb(255, 255, 255);
+}
+
+/* Services section */
+
+.services-background {
+    background-color: rgb(255, 250, 243);
+}
+.services-business-consultation:hover {
+    background: url(images/icon_business_consultation.hover.png) no-repeat 50% 50%;
+}
+.services-boost-local-business:hover {
+
+}
+.services-accounting:hover {
+
+}
+.services-types {
+    display: inline-block;
+}
 
