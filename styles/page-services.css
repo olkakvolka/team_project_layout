@@ -1,15 +1,19 @@
 .services-background {
     background-color: rgb(255, 250, 243);
 }
-.services-business-consultation:hover {
-    background: url(images/icon_business_consultation.hover.png) no-repeat 50% 50%;
-}
-.services-boost-local-business:hover {
-
-}
-.services-accounting:hover {
-
-}
 .services-types {
-    display: inline-block;
+        display: flex;
+        justify-content: space-between;
+}
+.services-img {
+    width: 44px;
+    height: 44px;
+}
+.services-block {
+    width: 324px;
+    height: 70px; 
+    margin-bottom: 120px; 
+}
+.services-block .sub-section-title {
+    margin-bottom: 0px;
 }
