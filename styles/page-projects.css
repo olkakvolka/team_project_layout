@@ -1,0 +1,74 @@
+.project-button {
+    border-width: 2px;
+    border-color: rgb(246, 150, 27);
+    border-style: solid;
+    border-radius: 30px;
+    background: rgba(255, 255, 255, 0);
+    font-family: "Montserrat";
+    font-size: 12px;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    line-height: 2;
+    width: 106px;
+    height: 29px;
+}
+.project-button:hover {
+    background: rgba(207, 203, 203, 0.5);
+}
+.project-contents {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 5px;
+}
+.project-narrow-image {
+    width: 358px;
+    height: 294px;
+}
+.project-narrow-image .project-button {
+    position: relative;
+    top: -280px;
+    left: 20px;
+}
+.project-narrow-info {
+    width: 356px;
+    height: 172px;
+    border-left: 1px solid rgb(218, 229, 232);
+    border-right: 1px solid rgb(218, 229, 232);
+    border-bottom: 1px solid rgb(218, 229, 232);
+}
+.project-narrow-info:hover {
+    background-color: rgb(246, 150, 27);
+    border-color: rgb(246, 150, 27);
+}
+.project-narrow-info:hover .project-contents .sub-section-content {
+    color: rgb(255, 255, 255);
+}
+.project-narrow-info:hover .project-contents .sub-section-title {
+    color: rgb(255, 255, 255);
+}
+.project-wide-image {
+  width: 749px;
+  height: 294px;  
+}
+.project-wide-image .project-button {
+    position: relative;
+    top: -280px;
+    left: 20px;
+}
+.project-wide-info {
+  width: 748px;
+  height: 172px;
+  border-left: 1px solid rgb(218, 229, 232);
+  border-right: 1px solid rgb(218, 229, 232);
+  border-bottom: 1px solid rgb(218, 229, 232);
+}
+.project-wide-info:hover {
+    background-color: rgb(246, 150, 27);
+    border-color: rgb(246, 150, 27);
+}
+.project-wide-info:hover .project-contents .sub-section-content {
+    color: rgb(255, 255, 255);
+}
+.project-wide-info:hover .project-contents .sub-section-title {
+    color: rgb(255, 255, 255);
+}
