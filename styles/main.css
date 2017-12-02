@@ -85,6 +85,6 @@ ul, li {        /* TODO: оставим селектор на класс?  ес�
 .sub-section-content {   /* TODO: стиль должен подойти и для димы с валентином*/
     font-size: 15px;
     font-family: Domine, "Times New Roman Regular", serif;
-    color: rgb(131, 139, 140);
+    color: #838b8c;
     line-height: 1.867;
 }
