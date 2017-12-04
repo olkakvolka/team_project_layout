@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/main.css">
-    <title>Consult plus</title>
+    <title>consult plus</title>
 </head>
 <body class="base">
-    <header class="page-header text-uppercase">
-        <div class="container center-horizontal container-header clearfix">
-            <div class="main-menu">
+    <header class="page-headertext-uppercase">
+        <div class="container center-horizontalcontainer-header clearfix">
+
+    <div class="main-menu">
                 <a class="logo float-left" href="#">                        <!--не забыть сверить с лого антона -->
                     <img src="img/logo.png" alt="logo"></a>
                 <nav class="inline-block float-left">
@@ -75,8 +76,7 @@
                     <label for="switch-header2" class="control-main"></label>
                     <label for="switch-header3" class="control-main"></label>
                 </div>
-            </div>
-        </div>
+            </div>    </div>
     </header>
     <main>
         <section class="about-us">
@@ -91,7 +91,8 @@
         </section>
         <section class="projects">
             <div class="container center-horizontal">
-                <h2 class="section-title text-center text-uppercase">projects</h2>
+
+    <h2 class="section-title text-center text-uppercase">projects</h2>
                 <div class="project-narrow">
                     <div class="project-narrow-image">
                         <img src="images/project-narrow.png">
@@ -118,12 +119,12 @@
                 </div>
                 <form action="/full projects/">
                     <button class="button-main text-uppercase" type="submit">full projects</button>
-                </form>
-            </div>
+                </form>        </div>
         </section>
         <section class="services services-background">
             <div class="container center-horizontal">
-                <h2 class="section-title text-center text-uppercase">services</h2>
+
+    <h2 class="section-title text-center text-uppercase">services</h2>
                 <div class="services-types">
                     <img class="services-business-consultation" src="images/icon_business_consultation.png">
                     <h3 class="sub-section-title sub-section-title-decoration text-uppercase">business consultation</h3>
@@ -139,25 +140,89 @@
                     <h3 class="sub-section-title sub-section-title-decoration text-uppercase">accounting</h3>
                     <span class="section-content">professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur.</span>
                 </div>
-                <form action="/full cervices/">
-                    <button class="button-main text-uppercase" type="submit">full cervices</button>
-                </form>
-            </div>
+                    <form action="/full cervices/">
+                        <button class="button-main text-uppercase" type="submit">full cervices</button>
+                    </form>
+                </div>
         </section>
-        <section class="testimonials">
-            <div class="container center-horizontal">
-
+        <section class="testimonials text-center">
+            <div class="container center-horizontal background-quote service-border">
+                <h2 class="testimonials-title">
+                testimonials
+                </h2>
+            <div class="testimonials-people-faces-block center-horizontal text-center">
+                <img src="img/icons/face/face1.png" class="face1 zoom opacity-img">
+                <img src="img/icons/face/face2.png" class="face2 zoom opacity-img">
+                <img src="img/icons/face/face3.png" class="face3 zoom opacity-img">
             </div>
-        </section>
-        <section class="blog">
-            <div class="container center-horizontal">
-
+            <div class="testimonials-content-block center-horizontal testimonials-content-font-style text-center  ">
+                <p class="testimonials-content-text">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever
+                    since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type speci
+                    book. It has survived not only five centuries, but also the leap into electronic typesetting.
+                </p>
+                <div class="quote-position">
+                    <img src="img/icons/quote/quote_icon_small.png">
+                </div>
+                <div class="testimonials-underline"></div>
+                <p class="text-footer">
+                    client name
+                </p>
+                <p class="text-footer-add">
+                    Designation
+                </p>
             </div>
-        </section>
-
+        </div>
+    </section>
+    <section class="blog service-border">
+        <div class="container center-horizontal">
+            <h2 class="blog-title text-center blog-title-vertical-position ">
+                our blog
+            </h2>
+            <div class="blog-content">
+                <div class="blog-content-row">
+                    <!-------- Левая часть блога------------>
+                    <div class="blog1 blog-cell cell-shadow">
+                        <div class="blog1-content-block">
+                            <p class="date-blog">
+                                February 22, 2016
+                            </p>
+                            <h2 class="blog-heading">
+                                blog heading here
+                            </h2>
+                            <p class="blog1-information-block">
+                                Established fact that a reader will be distracted by the readable of a page when looking at its layout...
+                            </p>
+                        </div>
+                    </div>
+                    <!-------- Правая часть блога------------>
+                    <div class="blog2 blog-cell">
+                        <div class="blog2-content-block">
+                            <p class="date-blog">
+                                February 22, 2016
+                            </p>
+                            <h2 class="blog-heading">
+                                blog heading here
+                            </h2>
+                            <p class="blog2-information-block">
+                                Popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages. fact that a reader will be distracted by the readable of a page when...
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <!--------Кнопка перехода на полноразмерный блог------->
+            <div class="full-blog-btn-vertical-position text-center">
+                <a class="full-blog-transition" href="#">
+                    <button class="btn">full blog</button>
+                </a>
+            </div>
+        </div>
+    </section>
         <section class="contacts">
             <div class="container center-horizontal">
-                <h2 class="section-title text-center text-uppercase">Quick Contact</h2>
+
+            <h2 class="section-title text-center text-uppercase">Quick Contact</h2>
                 <ul class="contact-list">
                     <li class="contact-item">
                         <a href="mailto:info@consultplus.com" class="contact-link">
@@ -186,13 +251,12 @@
                             </div>
                         </a>
                     </li>
-                </ul>
-            </div>
+                </ul></div>
         </section>
     </main>
     <footer class="page-footer">
         <div class="container center-horizontal">
-            <div class="footer-top">
+<div class="footer-top">
                 <a class="footer-logo" href="index.html">
                     <img src="img/logo.png" alt="Consult Plus">
                 </a>
@@ -288,4 +352,3 @@
         </div>
     </footer>
 </body>
-</html>

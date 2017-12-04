@@ -1,3 +1,5 @@
+@import url(testimonials.css);
+@import url(blog.css);
 @import url(page-header.css);
 @import url(contacts.css);
 @import url(footer.css);
@@ -31,7 +33,7 @@
 .inline-block {
     display: inline-block;
 }
-.text-center {                   
+.text-center {
     text-align: center;
 }
 .text-uppercase {
@@ -91,7 +93,7 @@ ul, li {        /* TODO: оставим селектор на класс?  ес�
 }
 .sub-section-title {     /* TODO: вынести в настины стили */
     line-height: 1.833;
-    text-align: left;     
+    text-align: left;
 }
 
 .section-content {   /* TODO: стиль должен подойти и для димы с валентином*/
@@ -99,7 +101,7 @@ ul, li {        /* TODO: оставим селектор на класс?  ес�
     font-family: Domine, "Times New Roman Regular", serif;
     color: rgb(131, 139, 140);
     line-height: 1.867;
-    text-align: left;  
+    text-align: left;
 }
 
 /* Project section */
@@ -110,9 +112,9 @@ ul, li {        /* TODO: оставим селектор на класс?  ес�
     color: rgb(255, 255, 255);
     border-width: 2px;
     border-color: rgb(255, 172, 86);
-    border-style: solid;  
+    border-style: solid;
     text-transform: uppercase;
-    line-height: 2.75;  
+    line-height: 2.75;
 }
 .project-narrow {    /* TODO: есть стиль .float-left */
       float: left;
@@ -126,7 +128,7 @@ ul, li {        /* TODO: оставим селектор на класс?  ес�
     height: 170px;
     border-style: solid;
     border-width: 1px;
-    border-color: rgb(218, 229, 232);  
+    border-color: rgb(218, 229, 232);
 }
 .project-narrow-container:hover {
     background-color: rgb(246, 150, 27);
@@ -137,7 +139,7 @@ ul, li {        /* TODO: оставим селектор на класс?  ес�
 }
 .project-wide-image {
   width: 749px;
-  height: 294px;  
+  height: 294px;
 }
 .project-wide-container {
   width: 748px;
@@ -168,4 +170,22 @@ ul, li {        /* TODO: оставим селектор на класс?  ес�
 .services-types {
     display: inline-block;
 }
+/*кнопки димы*/
+.btn {
+    font-family: Montserrat, "Times New Roman", sans-serif;
+    font-size: 13px;
+    background-color: #16d428;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 15px 45px;
+    border-radius: 30px;
+    display: inline-block;
+    border: 0;
+}
 
+.btn:hover {
+    background-color: #13b422;
+    box-shadow: 0 0 15px #8b8f89;
+    cursor: pointer;
+}
