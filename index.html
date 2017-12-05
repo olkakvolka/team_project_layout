@@ -7,10 +7,9 @@
     <title>consult plus</title>
 </head>
 <body class="base">
-    <header class="page-headertext-uppercase">
-        <div class="container center-horizontalcontainer-header clearfix">
-
-    <div class="main-menu">
+    <header class="page-header text-uppercase">
+        <div class="container center-horizontal container-header clearfix">
+            <div class="main-menu">
                 <a class="logo float-left" href="#">                        <!--не забыть сверить с лого антона -->
                     <img src="img/logo.png" alt="logo"></a>
                 <nav class="inline-block float-left">
@@ -37,12 +36,12 @@
                 </nav>
                 <div class="contact float-right">
                     <div class="icon-phone inline-block"></div>
-                    <span>+91 5685 6664 555</span>
+                    <span class="text-phone">+91 5685 6664 555</span>
                     <div class="icon-email inline-block"></div>
                 </div>
             </div>
             <div class="welcome-title text-center">
-                <p class="">We are leading consulting company</p>
+                <p class="welcome-title-text">We are leading consulting company</p>
                 <h1 class="title-main">Choose your industry</h1>
             </div>
             <div class="slide-industry center-horizontal">
@@ -50,31 +49,49 @@
                 <input type="radio" name="slider-header" class="switch-header2" id="switch-header2">
                 <input type="radio" name="slider-header" class="switch-header3" id="switch-header3">
                 <div class="slider-header-overflow">
-                    <div class="slider-header-container">
-                        <div class="slider-header-box">
-                            <p class="slider-header-text">education</p>
-                        </div>
-                        <div class="slider-header-box">
-                            <p class="slider-header-text">business</p>
-                        </div>
-                        <div class="slider-header-box">
-                            <p class="slider-header-text">technology</p>
-                        </div>
-                        <div class="slider-header-box">
-                            <p class="slider-header-text">banking</p>
-                        </div>
-                        <div class="slider-header-box">
-                            <p class="slider-header-text">something1</p>
-                        </div>
-                        <div class="slider-header-box">
-                            <p class="slider-header-text">something2</p>
-                        </div>
+                    <div class="slider-header-container slider-transition">
+                        <a href="#">
+                            <div class="slider-header-box">
+                                <div class="slider-header-box-img slider-header-box-img-position slider-header-box-education"></div>
+                                <p class="slider-header-text text-center">education</p>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="slider-header-box">
+                                <div class="slider-header-box-img slider-header-box-img-position slider-header-box-business"></div>
+                                <p class="slider-header-text text-center">business</p>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="slider-header-box">
+                                <div class="slider-header-box-img slider-header-box-img-position slider-header-box-technology"></div>
+                                <p class="slider-header-text text-center">technology</p>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="slider-header-box">
+                                <div class="slider-header-box-img slider-header-box-img-position slider-header-box-banking"></div>
+                                <p class="slider-header-text text-center">banking</p>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="slider-header-box">
+                                <div class="slider-header-box-img slider-header-box-img-position slider-header-box-education"></div>
+                                <p class="slider-header-text text-center">something1</p>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="slider-header-box">
+                                <div class="slider-header-box-img slider-header-box-img-position slider-header-box-education"></div>
+                                <p class="slider-header-text text-center">something2</p>
+                            </div>
+                        </a>
                     </div>
                 </div>
                 <div class="slider-main-controls">
-                    <label for="switch-header1" class="control-main"></label>
-                    <label for="switch-header2" class="control-main"></label>
-                    <label for="switch-header3" class="control-main"></label>
+                    <label for="switch-header1" class="control-main1"></label>
+                    <label for="switch-header2" class="control-main2"></label>
+                    <label for="switch-header3" class="control-main3"></label>
                 </div>
             </div>    </div>
     </header>
@@ -91,8 +108,7 @@
         </section>
         <section class="projects">
             <div class="container center-horizontal">
-
-    <h2 class="section-title text-center text-uppercase">projects</h2>
+                 <h2 class="section-title text-center text-uppercase">projects</h2>
                 <div class="project-narrow">
                     <div class="project-narrow-image">
                         <img src="images/project-narrow.png">
@@ -123,8 +139,7 @@
         </section>
         <section class="services services-background">
             <div class="container center-horizontal">
-
-    <h2 class="section-title text-center text-uppercase">services</h2>
+                <h2 class="section-title text-center text-uppercase">services</h2>
                 <div class="services-types">
                     <img class="services-business-consultation" src="images/icon_business_consultation.png">
                     <h3 class="sub-section-title sub-section-title-decoration text-uppercase">business consultation</h3>
@@ -256,7 +271,7 @@
     </main>
     <footer class="page-footer">
         <div class="container center-horizontal">
-<div class="footer-top">
+            <div class="footer-top">
                 <a class="footer-logo" href="index.html">
                     <img src="img/logo.png" alt="Consult Plus">
                 </a>
