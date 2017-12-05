@@ -85,8 +85,6 @@
 .footer-subscribe-btn {
     width: 134px;
     height: 52px;
-    border: none;
-    cursor: pointer;
     margin-left: -40px;
 }
 
@@ -101,7 +99,7 @@
     color: #838b8c;
 }
 
-.footer-bottom {
+.footer-bottom-block {
     display: flex;
     justify-content: space-between;
 }
