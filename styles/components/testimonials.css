@@ -21,17 +21,12 @@
     background-color: #03b6e7;
     height: 515px;
 }
+.section-title-testimonials {
+    color: #fff;
+}
 
 .background-quote {
     background: url(../../img/icons/quote/quote_icon.png) no-repeat
-}
-
-.testimonials-title {
-    text-transform: uppercase;
-    color: #ffffff;
-    margin-top: 90px;
-    font-size: 25pt;
-    font-family: Arial, sans-serif;
 }
 
 .testimonials-people-faces-block {
@@ -71,13 +66,7 @@
     width: 20px;
     border-top: 3px solid #ffffff;
 }
-.text-footer {
-    text-transform: uppercase;
-}
 
 .text-footer-add {
     font-family: "Times New Roman Regular", serif
-}
-.quote-position {
-    float: right;
 }

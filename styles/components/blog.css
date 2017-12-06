@@ -5,18 +5,9 @@
     height: 650px;
 }
 
-.blog-title-vertical-position {
-    margin-top: 90px;
-}
 
 .cell-shadow {
     box-shadow: 0 0 105px #b0b8c5;
-}
-
-.blog-title {
-    color: #343a3b;
-    font-family: Arial, sans-serif;
-    text-transform: uppercase;
 }
 
 .blog-content {

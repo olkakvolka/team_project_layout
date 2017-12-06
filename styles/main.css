@@ -50,23 +50,27 @@
     display: table;
     clear: both;
 }
-
-ul, li {        /* TODO: оставим селектор на класс?  если да, оля, отрредактируй .menu-decoration*/
-     margin: 0;
-     padding: 0;
-     list-style: none;
+.transition {
+    -webkit-transition: all 1s ease 0.5s;
+    -moz-transition: all 1s ease 0.5s;
+    -ms-transition: all 1s ease 0.5s;
+    -o-transition: all 1s ease 0.5s;
+    transition: all 0.3s ease 0.1s;
 }
-
 .section-title {
     font-family: Montserrat, Arial, sans-serif;
     font-size: 32px;
     font-weight: 700;
-    color: #343a3b;
     letter-spacing: -1.6px;
     margin-top: 94px;
     line-height: 1.031;    /* TODO: проверить необходимость (из стиля насти)*/
 }
-
+.section-title-color {
+    color: #343a3b;
+}
+.section-title-color-testimonials {
+    color: #fff;
+}
 .btn {
     font-family: Montserrat, Arial, sans-serif;
     font-size: 13px;
@@ -124,9 +128,7 @@ ul, li {        /* TODO: оставим селектор на класс?  ес�
     text-transform: uppercase;
     line-height: 2.75;
 }
-.project-narrow {    /* TODO: есть стиль .float-left */
-      float: left;
-}
+
 .project-narrow-image {
     width: 358px;
     height: 294px;
@@ -140,9 +142,7 @@ ul, li {        /* TODO: оставим селектор на класс?  ес�
     background-color: rgb(246, 150, 27);
     color: rgb(255, 255, 255);
 }
-.project-wide {  /* TODO: есть стиль .float-right */
-    float: right;
-}
+
 .project-wide-image {
   width: 749px;
   height: 294px;
