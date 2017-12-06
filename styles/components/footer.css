@@ -28,7 +28,6 @@
     font-family: Montserrat, Arial, sans-serif;
     color: #e1e1e1;
     font-weight: 700;
-    text-transform: uppercase;
     font-size: 20px;
     margin-bottom: 25px;
 }
@@ -50,10 +49,8 @@
 .footer-nav-link,
 .footer-industry-link {
     text-decoration: none;
-    font-family: Montserrat, "Times New Roman", sans-serif;   /* TODO: указаны шрифты из разный семеств; */
-    font-size: 13px;
+    font-family: Montserrat, Arial, sans-serif;
     color: #838b8c;
-    text-transform: uppercase;
     transition: .3s;
 }
 
@@ -67,7 +64,7 @@
     color: #838b8c;
 }
 
-.footer-subscribe-input-wrap {  /* TODO: может стоит сделaть отдельным классом на подобии float-left?*/
+.footer-subscribe-input-wrap {
     display: flex;
 }
 
@@ -75,7 +72,6 @@
     font-family: Montserrat, Arial, sans-serif;
     font-size: 13px;
     background-color: #323334;
-    text-transform: uppercase;
     border: none;
     border-radius: 100px;
     padding: 0 55px 0 20px;
@@ -89,8 +85,6 @@
 .footer-subscribe-btn {
     width: 134px;
     height: 52px;
-    border: none;
-    cursor: pointer;
     margin-left: -40px;
 }
 
@@ -99,12 +93,13 @@
     background-color: #323334;
     margin: 95px 0 23px 0;
 }
+
 .footer-copyright {
     font-size: 15px;
     color: #838b8c;
 }
 
-.footer-bottom {
+.footer-bottom-block {
     display: flex;
     justify-content: space-between;
 }
@@ -143,8 +138,7 @@
 }
 
 .footer-social-link {
-    font-family: Montserrat, "Times New Roman", sans-serif;
-    text-transform: uppercase;
+    font-family: Montserrat, Arial, sans-serif;
     text-decoration: none;
     font-weight: 400;
     font-size: 13px;

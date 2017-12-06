@@ -1,8 +1,9 @@
-@import url(testimonials.css);
-@import url(blog.css);
-@import url(page-header.css);
-@import url(contacts.css);
-@import url(footer.css);
+@import url(components/testimonials.css);
+@import url(components/blog.css);
+@import url(components/page-header.css);
+@import url(components/contacts.css);
+@import url(components/footer.css);
+@import url(media.css);
 
 /* ---- FONTS ---- */
 
@@ -17,7 +18,7 @@
 }
 
 .container {
-    width: 1140px;
+    max-width: 1140px;
 }
 
 .center-horizontal {
@@ -27,18 +28,23 @@
 .float-left {
     float: left;
 }
+
 .float-right {
     float: right;
 }
+
 .inline-block {
     display: inline-block;
 }
+
 .text-center {
     text-align: center;
 }
+
 .text-uppercase {
     text-transform: uppercase;
 }
+
 .clearfix::after {
     content: "";
     display: table;
@@ -57,6 +63,7 @@ ul, li {        /* TODO: оставим селектор на класс?  ес�
     font-weight: 700;
     color: #343a3b;
     letter-spacing: -1.6px;
+    margin-top: 94px;
     line-height: 1.031;    /* TODO: проверить необходимость (из стиля насти)*/
 }
 
@@ -68,13 +75,15 @@ ul, li {        /* TODO: оставим селектор на класс?  ес�
     color: #fff;
     padding: 15px 25px;
     border-radius: 30px;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;;
     display: inline-block;     /* TODO: нет ли здесь смешения стилей внешнего вида и расположения?*/
 }
 
 .btn:hover {
     background-color: #13b422;
 }
-
 
 .button-main {
     font-size: 13px;
@@ -91,6 +100,7 @@ ul, li {        /* TODO: оставим селектор на класс?  ес�
     font-weight: 700;
     letter-spacing: -0.9px;
 }
+
 .sub-section-title {     /* TODO: вынести в настины стили */
     line-height: 1.833;
     text-align: left;
@@ -140,9 +150,7 @@ ul, li {        /* TODO: оставим селектор на класс?  ес�
 .project-wide-container {
   width: 748px;
   height: 172px;
-  border-style: solid;
-  border-width: 1px;
-  border-color: rgb(218, 229, 232);
+  border: 1px solid rgb(218, 229, 232);
 }
 .project-wide-container:hover {
     background-color: rgb(246, 150, 27);
@@ -155,7 +163,7 @@ ul, li {        /* TODO: оставим селектор на класс?  ес�
     background-color: rgb(255, 250, 243);
 }
 .services-business-consultation:hover {
-    background: url(images/icon_business_consultation.hover.png) no-repeat 50% 50%;
+    background: url(../images/icon_business_consultation.hover.png) no-repeat 50% 50%;
 }
 .services-boost-local-business:hover {
 
@@ -166,7 +174,8 @@ ul, li {        /* TODO: оставим селектор на класс?  ес�
 .services-types {
     display: inline-block;
 }
-/*кнопки димы*/
+
+/*
 .btn {
     font-family: Montserrat, "Times New Roman", sans-serif;
     font-size: 13px;
@@ -174,7 +183,7 @@ ul, li {        /* TODO: оставим селектор на класс?  ес�
     text-decoration: none;
     text-transform: uppercase;
     color: #fff;
-    padding: 15px 45px;
+    padding: 15px 25px;
     border-radius: 30px;
     display: inline-block;
     border: 0;
@@ -185,3 +194,4 @@ ul, li {        /* TODO: оставим селектор на класс?  ес�
     box-shadow: 0 0 15px #8b8f89;
     cursor: pointer;
 }
+*/
