@@ -1,0 +1,193 @@
+.block-our-features-bg{
+    position: relative;
+    background-color: #e7eff1;
+    width: 1970px;
+    height: 585px;
+    opacity: 1;
+    zoom: 72%;
+}
+.caption-our-features{
+    font-size: 32px;
+    font-family: Montserrat, Arial, sans-serif;
+    color: #343a3b;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.031;
+    text-align: right;
+    position: absolute;
+    left: 870px;
+    top: 83px;
+    letter-spacing: -1.4px;
+}
+.caption-24-hour-support{
+    font-size: 17px;
+    font-family: Montserrat, Arial, sans-serif;
+    color: #343a3b;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.941;
+    text-align: left;
+    position: absolute;
+    left: 653px;
+    top: 180px;
+    letter-spacing: -1.2px;
+}
+.caption-full-security{
+    font-size: 17px;
+    font-family: Montserrat, Arial, sans-serif;
+    color: #343a3b;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.941;
+    text-align: left;
+    position: absolute;
+    left: 683px;
+    top: 323px;
+    letter-spacing: -1.2px;
+}
+.caption-business-boosting{
+    font-size: 17px;
+    font-family: Montserrat, Arial, sans-serif;
+    color: #343a3b;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.941;
+    text-align: left;
+    position: absolute;
+    left: 1165px;
+    top: 180px;
+    letter-spacing: -1.4px;
+}
+.caption-creative-process{
+    font-size: 17px;
+    font-family: Montserrat, Arial, sans-serif;
+    color: #343a3b;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.941;
+    text-align: left;
+    position: absolute;
+    left: 1165px;
+    top: 323px;
+    letter-spacing: -1.4px;
+}
+.image-near-caption-24-hour-support{
+    position: absolute;
+    top: 190px;
+    left: 840px;
+}
+.image-near-caption-business-boosting{
+    position: absolute;
+    top: 190px;
+    left: 1098px;
+}
+.image-near-caption-creative-process{
+    position: absolute;
+    top: 333px;
+    left: 1100px;
+}
+.image-near-caption-full-security{
+    position: absolute;
+    top: 333px;
+    left: 840px;
+}
+.article-for-caption-24-hour-support{
+    font-size: 15px;
+    font-family: Domine, Arial, sans-serif;
+    color: #838b8c;
+    font-weight: normal;
+    line-height: 1.867;
+    text-align: right;
+    position: absolute;
+    left: 420px;
+    top: 215px;
+    width: 390px;
+    height: 42px;
+}
+.article-for-caption-full-security{
+    font-size: 15px;
+    font-family: Domine, Arial, sans-serif;
+    color: #838b8c;
+    font-weight: normal;
+    line-height: 1.867;
+    text-align: right;
+    position: absolute;
+    left: 420px;
+    top: 360px;
+    width: 390px;
+    height: 42px;
+}
+.article-for-caption-business-boosting{
+    font-size: 15px;
+    font-family: Domine, Arial, sans-serif;
+    color: #838b8c;
+    font-weight: normal;
+    line-height: 1.867;
+    text-align: left;
+    position: absolute;
+    left: 1165px;
+    top: 215px;
+    width: 390px;
+    height: 42px;
+}
+.article-for-caption-creative-process{
+    font-size: 15px;
+    font-family: Domine, Arial, sans-serif;
+    color: #838b8c;
+    font-weight: normal;
+    line-height: 1.867;
+    text-align: left;
+    position: absolute;
+    left: 1165px;
+    top: 358px;
+    width: 390px;
+    height: 42px;
+}
+.logo-consult-plus-center-in-block-our-features{
+    position: absolute;
+    top:40px;
+    left:38px;
+}
+.circle-for-logo-consult-plus{
+    border-radius: 50%;
+    background-color: #fff;
+    position: absolute;
+    left: 922px;
+    top: 225px;
+    width: 131px;
+    height: 131px;
+}
+.rectangle-for-bottom-block-our-features{
+    position: absolute;
+    top:508px;
+    left: 418px;
+    width: 1141px;
+    height: 78px;
+    background: #565d5d;
+}
+.article-in-bottom-block-our-features{
+    font-size: 20px;
+    font-family: Domine, Arial,sans-serif;
+    color: #fff;
+    text-align: left;
+    position: absolute;
+    left: 37px;
+    top: 25px;
+    letter-spacing: -0.47px;
+}
+.button-for-boost-your-business-in-block-our-features{
+    position: absolute;
+    left: 890px;
+    top: 15px;
+    width: 224px;
+    height: 45px;
+    font-size: 13px;
+    font-family: Montserrat, Arial, sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 2.308;
+    background-color: #16d428;
+    border-radius: 23px;
+    border: none;
+    cursor: pointer;
+}
