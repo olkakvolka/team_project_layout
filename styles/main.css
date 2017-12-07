@@ -1,4 +1,5 @@
 @import url(components/testimonials.css);
+@import url(components/testimonials-slider.css);
 @import url(components/blog.css);
 @import url(components/page-header.css);
 @import url(components/page-services.css);
@@ -18,7 +19,6 @@
     font-family: Domine, "Times New Roman Regular", serif;
     color: #838b8c;
 }
-
 .container {
     max-width: 1140px;
 }
@@ -55,7 +55,6 @@
 .transition {
     -webkit-transition: all 1s ease 0.5s;
     -moz-transition: all 1s ease 0.5s;
-    -ms-transition: all 1s ease 0.5s;
     -o-transition: all 1s ease 0.5s;
     transition: all 0.3s ease 0.1s;
 }
@@ -67,28 +66,9 @@
     margin-top: 94px;
     line-height: 1.031;    /* TODO: проверить необходимость (из стиля насти)*/
 }
+
 .section-title-color {
     color: #343a3b;
-}
-.section-title-color-testimonials {
-    color: #fff;
-}
-.btn {
-    font-family: Montserrat, Arial, sans-serif;
-    font-size: 13px;
-    background-color: #16d428;
-    text-decoration: none;
-    color: #fff;
-    padding: 15px 25px;
-    border-radius: 30px;
-    text-transform: uppercase;
-    border: none;
-    cursor: pointer;;
-    display: inline-block;     /* TODO: нет ли здесь смешения стилей внешнего вида и расположения?*/
-}
-
-.btn:hover {
-    background-color: #13b422;
 }
 
 .button-main {
@@ -96,7 +76,7 @@
     font-family: Montserrat, Arial, sans-serif;
     color: #fff;
     background-color: #16d428;
-    line-height: 2.308;
+    line-height: 2.308;                /* это будет btn*/
 }
 
 .sub-section-title-decoration {
@@ -120,23 +100,33 @@
     text-align: left;
 }
 
-/*
+
 .btn {
-    font-family: Montserrat, "Times New Roman", sans-serif;
-    font-size: 13px;
     background-color: #16d428;
-    text-decoration: none;
-    text-transform: uppercase;
-    color: #fff;
-    padding: 15px 25px;
     border-radius: 30px;
     display: inline-block;
     border: 0;
+    cursor: pointer;/* TODO: нет ли здесь смешения стилей внешнего вида и расположения?*/
+}
+
+.font-btn {
+    font-family: Montserrat, Arial, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
 }
 
 .btn:hover {
     background-color: #13b422;
     box-shadow: 0 0 15px #8b8f89;
-    cursor: pointer;
 }
-*/
+
+.button-main {
+    font-size: 13px;
+    font-family: Montserrat, Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    background-color: rgb(22, 212, 40);
+    line-height: 2.308;
+}
+

@@ -1,0 +1,116 @@
+/* -----TESTIMONIALS SLIDER-----*/
+
+
+/* -----обертка для слайдера-----*/
+.testimonials-slider-wrap {
+    height: 365px;
+    margin: 0 auto;
+    position: relative;
+    width: 1140px;
+}
+
+/* -----контейнер для переключения фото-----*/
+
+.testimonials-clients-photos-slider-box {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    height: 80px;
+}
+/* -----контейнер для одного фото-----*/
+
+.testimonials-photo-box {
+    margin:auto 10px;
+    display:inline;
+    height: 55px;
+    width: 55px;
+    cursor: pointer;
+}
+
+/* -----фото клиентов-----*/
+
+.testimonials-photo-client1{                 /* TODO: сделать через спрайт*/
+    background: url("../../img/icons/clients/client1.png") no-repeat 50% 50%;
+    background-size: 100%;
+}
+
+.testimonials-photo-client2{
+    background: url("../../img/icons/clients/client2.png") no-repeat 50% 50%;
+    background-size: 100%;
+}
+
+.testimonials-photo-client3{
+    background: url("../../img/icons/clients/client3.png") no-repeat 50% 50%;
+    background-size: 100%;
+}
+
+/* -----тень для фото-----*/
+
+.testimonials-photo-shade {
+    background-color: #03b6e7;
+    opacity:0.6;
+}
+
+/* -----переключение фотографий-----*/
+
+.switch-photo-client1,
+.switch-photo-client2,
+.switch-photo-client3 {
+    display:none;
+}
+
+.switch-photo-client1:checked ~ .testimonials-clients-photos-slider-box .checked-client1,
+.switch-photo-client2:checked ~ .testimonials-clients-photos-slider-box .checked-client2,
+.switch-photo-client3:checked ~ .testimonials-clients-photos-slider-box .checked-client3 {
+    opacity:1;
+    height: 65px;
+    width: 65px;
+    transition: .5s;
+}
+
+
+/* -----контейнер для переключения отзывов-----*/
+
+.slider-review {
+    height: 260px;
+    overflow: hidden;
+    position: relative;
+    width: 1140px;
+}
+
+/* -----контейнер для  отзыва-----*/
+
+.testimonials-review-block {
+    height: 250px;
+    padding-top: 10px;
+    opacity: 0;
+    position: absolute;
+    width: inherit;
+    z-index: 0;
+    -webkit-filter: hue-rotate(90deg);
+    transform: rotate(55deg);
+    transition: 1s;
+}
+
+.testimonials-review {
+    width:1000px;
+    margin: 0 auto;
+}
+
+/* -----подчеркивание после отзыва-----*/
+.testimonials-underline {
+    margin: 30px auto;
+    width: 20px;
+    border-top: 3px solid #ffffff;
+}
+
+/* -----эффект смены отзывов-----*/
+
+.switch-photo-client1:checked ~ .slider-review > .checked-review-client1,
+.switch-photo-client2:checked ~ .slider-review > .checked-review-client2,
+.switch-photo-client3:checked ~ .slider-review > .checked-review-client3 {
+    opacity: 1;
+    z-index: 1;
+    transform: none;
+    -webkit-filter: none;
+}
