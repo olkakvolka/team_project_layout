@@ -1,5 +1,6 @@
 .page-header {
-    background: url("../../img/peoples.png") no-repeat #03b6e7;
+    background: url("../../img/peoples.png") center no-repeat #03b6e7;
+    background-size: cover;
     color: #fff;
     font-family: Montserrat, Arial, sans-serif;
     font-size: 16px;
@@ -15,7 +16,6 @@
     padding: 0;
     margin: 0 0 0 70px;
     line-height:42px;
-
 }
 .menu-decoration {
     list-style-type: none;
