@@ -26,24 +26,23 @@
 }
 
 .blog-shadow {
-    box-shadow: 0 0 105px #b0b8c5;
+    box-shadow: inset -20px 0 40px rgba(176,184,197,0.3);
 }
-
+.blog2-shadow {
+    box-shadow: inset 20px 0 40px rgba(176,184,197,0.3);
+}
 .blog-cell:hover {
-    box-shadow: 0 10px 40px #9fa7b4;
+    box-shadow: 0 0 40px #9fa7b4;
     transition: 0.5s;
     border-color: #16d428;
     cursor: pointer;
 }
 
-.blog1-border {
-    border-top: 3px solid #16d428;
-}
 .background-img {
     background: url("../../img/img-blog.png") no-repeat;
 }
 
-.blog2-border {
+.blog-border {
     border-top: 3px solid #ffac56;
 }
 
