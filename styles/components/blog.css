@@ -8,18 +8,8 @@
     margin-top: 90px;
 }
 
-.cell-shadow {
-    box-shadow: 0 0 105px #b0b8c5;
-}
-
-.blog-title {
-    color: #343a3b;
-    font-family: Arial, sans-serif;
-    text-transform: uppercase;
-}
-
 .blog-content {
-    background-color: #fff;
+    background-color: #ffffff;
     border-collapse: collapse;
     display: table;
 }
@@ -35,12 +25,25 @@
     vertical-align: top;
 }
 
-.blog1 {
-    background: url("../image/layer.png") no-repeat;
-    border-top: 3px solid #16d428;
+.blog-shadow {
+    box-shadow: 0 0 105px #b0b8c5;
 }
 
-.blog2 {
+.blog-cell:hover {
+    box-shadow: 0 10px 40px #9fa7b4;
+    transition: 0.5s;
+    border-color: #16d428;
+    cursor: pointer;
+}
+
+.blog1-border {
+    border-top: 3px solid #16d428;
+}
+.background-img {
+    background: url("../../img/img-blog.png") no-repeat;
+}
+
+.blog2-border {
     border-top: 3px solid #ffac56;
 }
 
@@ -58,7 +61,7 @@
 .date-blog {
     color: #343a3b;
     margin-top: 40px;
-    font-family: "Times New Roman Regular", serif;
+    font-family: 'Domine Regular', serif;
     font-size: 1.2em;
     font-weight: bold;
     margin-bottom: -5px;
@@ -67,7 +70,7 @@
 .blog-heading {
     color: #343a3b;
     text-transform: uppercase;
-    font-family: Arial, sans-serif;
+    font-family: 'Montserrat Bold', sans-serif;
     font-size: 1.2em;
 }
 
@@ -85,4 +88,8 @@
 
 .full-blog-btn-vertical-position {
     margin-top: 60px;
+}
+
+.blog-btn-size {
+    padding: 15px 45px;
 }
