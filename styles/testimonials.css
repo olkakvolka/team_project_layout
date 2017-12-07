@@ -22,22 +22,33 @@
     height: 515px;
 }
 
+.testimonials-box-style {
+    padding-top: 65px;
+    display:block;
+    color:#fff;
+    border: 1px solid red;
+}
 .background-quote {
     background: url(../img/icons/quote/quote_icon.png) no-repeat
 }
 
-.testimonials-title {
+.font-sections-title {
+    font-family: 'Montserrat Extra Bold', sans-serif;
+    font-size: 32px;
+    font-weight: bolder;
     text-transform: uppercase;
+    color: #343a3b;
+}
+
+.font-color-testimonials-title {
     color: #ffffff;
-    margin-top: 90px;
-    font-size: 25pt;
-    font-family: Arial, sans-serif;
 }
 
 .testimonials-people-faces-block {
     display: block;
     width: 254px;
     height: 62px;
+    border: 1px solid red;
 }
 
 
@@ -53,6 +64,7 @@
 .testimonials-content-block {
     height: 260px;
     width: 1000px;
+    border: 1px solid #1cff42;
 }
 
 .testimonials-content-font-style {

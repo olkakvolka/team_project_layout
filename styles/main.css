@@ -1,5 +1,7 @@
 @import url(testimonials.css);
 @import url(blog.css);
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700,700i');
+@import url('https://fonts.googleapis.com/css?family=Domine');
 
 .base {
     font-family: "Domine Regular", "Times New Roman Regular", serif;
@@ -30,9 +32,8 @@
     text-decoration: none;
     text-transform: uppercase;
     color: #fff;
-    padding: 15px 45px;
-    border-radius: 30px;
     display: inline-block;
+    cursor: pointer;
     border: 0;
 }
 
