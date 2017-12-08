@@ -19,7 +19,7 @@
 }
 
 .container {
-    max-width: 1140px;
+    width: 1140px;
 }
 
 /* ---- POSITION ---- */
@@ -84,17 +84,17 @@
 .btn {
     background-color: #16d428;
     border-radius: 30px;
-    display: inline-block;
     border: 0;
     cursor: pointer;
+    display: inline-block;
 }
 
 .font-btn {
-    font-family: Montserrat, Arial, sans-serif;
-    font-size: 13px;
+    color: #fff;
+    font: 1em Montserrat, Arial, sans-serif;
     font-weight: bold;
     text-decoration: none;
-    color: #fff;
+
 }
 
 .btn:hover {
@@ -136,15 +136,9 @@
 /* Font Styles */
 
 .font-sections-title {         /* шрифт секции */
-    font-family: 'Montserrat Extra Bold', sans-serif;
-    font-size: 32px;
+    font: 2em 'Montserrat Extra Bold', sans-serif;
     font-weight: bolder;
-    color: #343a3b;
 }
-
-
-
-
 
 /* Project section */
 

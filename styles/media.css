@@ -6,11 +6,45 @@
 
 /* ---- PROJECTS ---- */
 
-/* ---- CERVICES ---- */
+/* ---- SERVICES ---- */
+
+
+/* ---- OUR BLOG---- */
+@media screen and (max-width: 1060px) {
+
+    .blog {
+        height: 750px;
+    }
+
+    .blog-cell {
+        display: block;
+    }
+
+    .blog-title-vertical-position {
+        margin-top: 30px;
+    }
+
+    .blog-shadow {
+        box-shadow: none;
+    }
+
+    .blog2-shadow {
+        box-shadow: none;
+    }
+
+    .full-blog-btn-vertical-position {
+        margin-top: 10px;
+    }
+}
 
 /* ---- TESTIMONIALS ---- */
 
-/* ---- OUR BLOG ---- */
+@media screen and (max-width: 1060px) {
+    .testimonials-review {
+        width:600px;
+    }
+}
+
 
 /* ---- QUICK CONTACT ---- */
 
