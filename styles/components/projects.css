@@ -8,10 +8,13 @@
     font-size: 12px;
     text-transform: uppercase;
     color: #ffffff;
-    line-height: 2;
+    line-height: 2,75;
     width: 106px;
     height: 29px;
     cursor: pointer;
+}
+.project-btn-size {
+    padding: 15px 45px;
 }
 .project-button:hover {
     background: #cfcbcb;

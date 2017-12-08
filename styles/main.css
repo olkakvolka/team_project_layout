@@ -1,8 +1,12 @@
-@import url(page-header.css);
-@import url(contacts.css);
-@import url(footer.css);
-@import url(page-projects.css);
-@import url(page-services.css);
+@import url(components/testimonials.css);
+@import url(components/testimonials-slider.css);
+@import url(components/blog.css);
+@import url(components/page-header.css);
+@import url(components/services.css);
+@import url(components/projects.css);
+@import url(components/contacts.css);
+@import url(components/footer.css);
+@import url(media.css);
 
 /* ---- FONTS ---- */
 
@@ -16,82 +20,111 @@
     color: #838b8c;
 }
 .container {
-    width: 1140px;
+    max-width: 1140px;
 }
+
 .center-horizontal {
     margin: 0 auto;
 }
+
 .float-left {
     float: left;
 }
+
 .float-right {
     float: right;
 }
+
 .inline-block {
     display: inline-block;
 }
-.text-center {                   
+
+.text-center {
     text-align: center;
 }
-.text-left {
-    text-align: left;
-}
+
 .text-uppercase {
     text-transform: uppercase;
 }
+
 .clearfix::after {
     content: "";
     display: table;
     clear: both;
 }
-ul, li {        /* TODO: оставим селектор на класс?  если да, оля, отрредактируй .menu-decoration*/
-     margin: 0;
-     padding: 0;
-     list-style: none;
+.transition {
+    -webkit-transition: all 1s ease 0.5s;
+    -moz-transition: all 1s ease 0.5s;
+    -o-transition: all 1s ease 0.5s;
+    transition: all 0.3s ease 0.1s;
 }
 .section-title {
     font-family: Montserrat, Arial, sans-serif;
     font-size: 32px;
     font-weight: 700;
-    color: #343a3b;
     letter-spacing: -1.6px;
+    margin-top: 94px;
     line-height: 1.031;    /* TODO: проверить необходимость (из стиля насти)*/
-    padding-top: 80px;
 }
-.btn {
-    font-family: Montserrat, Arial, sans-serif;
+
+.section-title-color {
+    color: #343a3b;
+}
+
+.button-main {
     font-size: 13px;
-    background-color: #16d428;
-    text-decoration: none;
+    font-family: Montserrat, Arial, sans-serif;
     color: #fff;
-    padding: 15px 25px;
-    border-radius: 30px;
-    border: 0;
-    margin-top: 50px;
-    margin-bottom: 90px;
-    display: inline-block;     /* TODO: нет ли здесь смешения стилей внешнего вида и расположения?*/
+    background-color: #16d428;
+    line-height: 2.308;                /* это будет btn*/
 }
-.btn:hover {
-    background-color: #13b422;
-}
-.sub-section-title {
+
+.sub-section-title-decoration {
     font-size: 18px;
     font-family: Montserrat, Arial, sans-serif;
-    color: #343a3b;d
+    color: #343a3b;
     font-weight: 700;
     letter-spacing: -0.9px;
-    line-height: 1.833;
 }
-.sub-section-content {   /* TODO: стиль должен подойти и для димы с валентином*/
+
+.sub-section-title {     /* TODO: вынести в настины стили */
+    line-height: 1.833;
+    text-align: left;
+}
+
+.section-content {   /* TODO: стиль должен подойти и для димы с валентином*/
     font-size: 15px;
     font-family: Domine, "Times New Roman Regular", serif;
     color: #838b8c;
     line-height: 1.867;
+    text-align: left;
 }
-.transition {
-    -webkit-transition: all 1s ease 0.5s;
-    -moz-transition: all 1s ease 0.5s;
-    -ms-transition: all 1s ease 0.5s;
-    -o-transition: all 1s ease 0.5s;
-    transition: all 0.3s ease 0.1s;
+.btn {
+    background-color: #16d428;
+    border-radius: 30px;
+    display: inline-block;
+    border: 0;
+    cursor: pointer;/* TODO: нет ли здесь смешения стилей внешнего вида и расположения?*/
 }
+
+.font-btn {
+    font-family: Montserrat, Arial, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+}
+
+.btn:hover {
+    background-color: #13b422;
+    box-shadow: 0 0 15px #8b8f89;
+}
+
+.button-main {
+    font-size: 13px;
+    font-family: Montserrat, Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    background-color: rgb(22, 212, 40);
+    line-height: 2.308;
+}
+
