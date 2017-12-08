@@ -7,25 +7,25 @@
 
 .contact-item {
     border: 1px solid #e1eaec;
-    width: 364px;
+    width: 358px;
     height: 128px;
     margin-bottom: 100px;
 }
 
 .contact-item .contact-item-pic-email {
-    background: url(../../img/sprite.png) -60px -252px;
-    width: 60px;
+    background: url(../img/sprite.png) -60px -252px;
+    width: 58px;
     height: 59px;
 }
 
 .contact-item .contact-item-pic-call {
-    background: url(../../img/sprite.png) -248px -252px;
+    background: url(../img/sprite.png) -248px -252px;
     width: 56px;
     height: 44px;
 }
 
 .contact-item .contact-item-pic-career {
-    background: url(../../img/sprite.png) 0 -312px;
+    background: url(../img/sprite.png) 0 -312px;
     width: 56px;
     height: 56px;
 }

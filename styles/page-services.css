@@ -1,0 +1,19 @@
+.services-background {
+    background-color: #fffaf3;
+}
+.services-types {
+        display: flex;
+        justify-content: space-between;
+}
+.services-img {
+    width: 44px;
+    height: 44px;
+}
+.services-block {
+    width: 324px;
+    height: 70px; 
+    margin-bottom: 120px; 
+}
+.services-block .sub-section-title {
+    margin-bottom: 0px;
+}
