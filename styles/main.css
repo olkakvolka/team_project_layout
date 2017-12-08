@@ -1,0 +1,132 @@
+@import url(components/testimonials.css);
+@import url(components/testimonials-slider.css);
+@import url(components/blog.css);
+@import url(components/page-header.css);
+@import url(components/page-services.css);
+@import url(components/page-projects.css);
+@import url(components/contacts.css);
+@import url(components/footer.css);
+@import url(media.css);
+
+/* ---- FONTS ---- */
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700,700i');
+@import url('https://fonts.googleapis.com/css?family=Domine');
+
+/* ---- GLOBAL STYLES ---- */
+
+.base {
+    font-family: Domine, "Times New Roman Regular", serif;
+    color: #838b8c;
+}
+.container {
+    max-width: 1140px;
+}
+
+.center-horizontal {
+    margin: 0 auto;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.transition {
+    -webkit-transition: all 1s ease 0.5s;
+    -moz-transition: all 1s ease 0.5s;
+    -o-transition: all 1s ease 0.5s;
+    transition: all 0.3s ease 0.1s;
+}
+.section-title {
+    font-family: Montserrat, Arial, sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: -1.6px;
+    margin-top: 94px;
+    line-height: 1.031;    /* TODO: проверить необходимость (из стиля насти)*/
+}
+
+.section-title-color {
+    color: #343a3b;
+}
+
+.button-main {
+    font-size: 13px;
+    font-family: Montserrat, Arial, sans-serif;
+    color: #fff;
+    background-color: #16d428;
+    line-height: 2.308;                /* это будет btn*/
+}
+
+.sub-section-title-decoration {
+    font-size: 18px;
+    font-family: Montserrat, Arial, sans-serif;
+    color: #343a3b;
+    font-weight: 700;
+    letter-spacing: -0.9px;
+}
+
+.sub-section-title {     /* TODO: вынести в настины стили */
+    line-height: 1.833;
+    text-align: left;
+}
+
+.section-content {   /* TODO: стиль должен подойти и для димы с валентином*/
+    font-size: 15px;
+    font-family: Domine, "Times New Roman Regular", serif;
+    color: #838b8c;
+    line-height: 1.867;
+    text-align: left;
+}
+
+
+.btn {
+    background-color: #16d428;
+    border-radius: 30px;
+    display: inline-block;
+    border: 0;
+    cursor: pointer;/* TODO: нет ли здесь смешения стилей внешнего вида и расположения?*/
+}
+
+.font-btn {
+    font-family: Montserrat, Arial, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+}
+
+.btn:hover {
+    background-color: #13b422;
+    box-shadow: 0 0 15px #8b8f89;
+}
+
+.button-main {
+    font-size: 13px;
+    font-family: Montserrat, Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    background-color: rgb(22, 212, 40);
+    line-height: 2.308;
+}
+

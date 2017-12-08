@@ -1,0 +1,42 @@
+/* -----TESTIMONIALS-----*/
+.service-border {
+    border-top: 1px solid #03b6e7;
+}
+
+.testimonials {
+    background-color: #03b6e7;
+    height: 515px;
+}
+
+.testimonials-box-style {
+    padding-top: 65px;
+    display:block;
+    color: #ffffff;
+}
+.background-quote {
+    background: url(../../img/icons/quote/quote_icon.png) no-repeat
+}
+
+.background-quote-small {
+    background: url(../../img/icons/quote/quote_icon_small.png) no-repeat 100% 30%;
+}
+
+.font-color-testimonials-title {
+    color: #ffffff;
+}
+
+.testimonials-review-font-style {
+    font-family: 'Domine', serif;
+    font-size: 14px;
+    line-height: 2em;
+}
+
+.font-client-name {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.font-review-designation {
+    font-size: 15px;
+}

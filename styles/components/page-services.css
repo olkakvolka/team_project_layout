@@ -1,0 +1,15 @@
+.services-background {
+    background-color: #fffaf3;
+}
+.services-business-consultation:hover {
+    background: url(../images/icon_business_consultation.hover.png) no-repeat 50% 50%;
+}
+.services-boost-local-business:hover {
+
+}
+.services-accounting:hover {
+
+}
+.services-types {
+    display: inline-block;
+}
