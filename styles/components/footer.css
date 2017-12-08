@@ -4,26 +4,18 @@
     background-color: #262829;
     padding: 95px 0 59px 0;
 }
-
 .footer-top {
-    display: flex;
     align-items: center;
 }
-
 .footer-logo {
     margin-right: 241px;
 }
-
 .footer-top-block {
-    display: flex;
-    justify-content: space-between;
     width: 65%;
 }
-
 .footer-top-block a:hover {
     color: #ffac55;
 }
-
 .footer-title {
     font-family: Montserrat, Arial, sans-serif;
     color: #e1e1e1;
@@ -31,43 +23,31 @@
     font-size: 20px;
     margin-bottom: 25px;
 }
-
 .footer-subscribe {
     width: 347px;
 }
-
 .footer-nav-item,
 .footer-industry-item {
     margin-bottom: 20px;
 }
-
 .footer-nav-item:last-child,
 .footer-industry-item:last-child {
     margin-bottom: auto;
 }
-
 .footer-nav-link,
 .footer-industry-link {
     text-decoration: none;
     font-family: Montserrat, Arial, sans-serif;
     color: #838b8c;
-    transition: .3s;
 }
-
 .footer-subscribe-desc {
     margin-bottom: 30px;
 }
-
 .footer-subscribe-desc-text {
     font-size: 15px;
     line-height: 24px;
     color: #838b8c;
 }
-
-.footer-subscribe-input-wrap {
-    display: flex;
-}
-
 .footer-subscribe-input {
     font-family: Montserrat, Arial, sans-serif;
     font-size: 13px;
@@ -77,74 +57,55 @@
     padding: 0 55px 0 20px;
     color: #fff;
 }
-
 .footer-subscribe-input::placeholder {
     color: #5e5e5e;
 }
-
 .footer-subscribe-btn {
     width: 134px;
     height: 52px;
     margin-left: -40px;
 }
-
-.footer-line {
+.section-line-footer {
     height: 1px;
     background-color: #323334;
     margin: 95px 0 23px 0;
 }
-
 .footer-copyright {
     font-size: 15px;
     color: #838b8c;
 }
-
-.footer-bottom-block {
-    display: flex;
-    justify-content: space-between;
-}
-
 .footer-social-list {
-    display: flex;
     margin-bottom: 21px;
 }
-
 .footer-social-item {
     margin-right: 40px;
 }
-
 .footer-social-item:last-child {
     margin-right: 0;
 }
-
 .footer-social-item-fb .footer-social-link {
     color: #385da5;
 }
-
 .footer-social-item-tw .footer-social-link {
     color: #00b5da;
 }
-
 .footer-social-item-inst .footer-social-link {
     color: #d4c5a8;
 }
-
 .footer-social-item-ln .footer-social-link {
     color: #1883bb;
 }
-
 .footer-social-item-google .footer-social-link {
     color: #e4463b;
 }
-
 .footer-social-link {
     font-family: Montserrat, Arial, sans-serif;
     text-decoration: none;
     font-weight: 400;
     font-size: 13px;
-    transition: .4s;
 }
-
 .footer-social-link:hover {
     color: #ffac55;
 }
+
+

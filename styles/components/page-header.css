@@ -37,6 +37,8 @@
 .text-phone {
     font-size: 15px;
     font-weight: 700;
+    color: #fff;
+    text-decoration: none;
 }
 .icon-phone {
     width: 20px;
@@ -146,9 +148,7 @@
     text-decoration: none;
     color: #fff;
 }
-.all input{
-    display: none;
-}
+
 .switch-header1,
 .switch-header2,
 .switch-header3 {

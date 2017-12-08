@@ -1,0 +1,93 @@
+.about-article {
+    width: 679px;
+    margin: 0 auto;
+}
+.about-article-text {
+    font-size: 15px;
+    color: #838b8c;
+    line-height: 28px;
+}
+.about-us-btn {
+    margin-top: 17px;
+}
+.section-line-about-us {
+    background-color: #e7eff1;
+    height: 1px;
+    margin: 68px 0 58px 0;
+}
+.switch-about1:checked ~ .slider-about-controls .control-about3,
+.switch-about2:checked ~ .slider-about-controls .control-about1,
+.switch-about3:checked ~ .slider-about-controls .control-about2 {
+    float: left;
+    display: block;
+    height: 32px;
+    width: 32px;
+    background: url(../../img/sprite.png) -56px -312px no-repeat transparent;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+    border-radius: 15px;
+    margin-top: 8px;
+    cursor: pointer;
+    opacity: 0.3;
+}
+.switch-about1:checked ~ .slider-about-controls .control-about3:hover,
+.switch-about2:checked ~ .slider-about-controls .control-about1:hover,
+.switch-about3:checked ~ .slider-about-controls .control-about2:hover {
+    opacity: 1;
+}
+
+.switch-about1:checked ~ .slider-about-controls .control-about2,
+.switch-about2:checked ~ .slider-about-controls .control-about3,
+.switch-about3:checked ~ .slider-about-controls .control-about1 {
+    float: right;
+    display: block;
+    height: 32px;
+    width: 32px;
+    background: url(../../img/sprite.png) -56px -312px no-repeat transparent;
+    border-radius: 15px;
+    margin-top: 8px;
+    cursor: pointer;
+    opacity: 0.3;
+}
+.switch-about1:checked ~ .slider-about-controls .control-about2:hover,
+.switch-about2:checked ~ .slider-about-controls .control-about3:hover,
+.switch-about3:checked ~ .slider-about-controls .control-about1:hover {
+    opacity: 1;
+}
+.slider-about-container {
+    width: 2040px;
+}
+.switch-about2:checked ~ .slider-about-overflow .slider-about-container {
+    margin-left: -210px;
+}
+.switch-about3:checked ~ .slider-about-overflow .slider-about-container {
+    margin-left: -330px;
+}
+
+.slider-about-position {
+    padding-right: 100px;
+}
+
+.slider-about-overflow {
+    width: 1005px;
+    overflow: hidden;
+}
+.slider-about-text {
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #c4c4c4;
+}
+.slider-about-text:hover {
+    color: #3e3e3e;
+}
+
+
+
+
+
+
+

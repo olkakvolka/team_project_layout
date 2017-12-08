@@ -6,6 +6,8 @@
 @import url(components/page-projects.css);
 @import url(components/contacts.css);
 @import url(components/footer.css);
+@import url(components/about-us.css);
+@import url(components/features.css);
 @import url(media.css);
 
 /* ---- FONTS ---- */
@@ -51,6 +53,28 @@
     content: "";
     display: table;
     clear: both;
+}
+.display-none {
+    display: none
+}
+.text-right {
+    text-align: right;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.row-reverse {
+    flex-direction: row-reverse;
+}
+
+.display-flex {
+    display: flex;
+}
+
+.justify-content-space-between {
+    justify-content: space-between;
 }
 .transition {
     -webkit-transition: all 1s ease 0.5s;
