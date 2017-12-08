@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/main.css">
+    <audio id="myaudio"><source src="sounds/button-click.mp3"></audio>
     <title>
         Consult plus
     </title>
@@ -108,9 +109,9 @@
                     </div>
                 </div>
                 <div class="slider-main-controls">
-                    <label for="switch-header1" class="control-main1 transition"></label>
-                    <label for="switch-header2" class="control-main2 transition"></label>
-                    <label for="switch-header3" class="control-main3 transition"></label>
+                    <label for="switch-header1" class="control-main1 transition" onclick="document.getElementById('myaudio').play()"></label>
+                    <label for="switch-header2" class="control-main2 transition" onclick="document.getElementById('myaudio').play()"></label>
+                    <label for="switch-header3" class="control-main3 transition" onclick="document.getElementById('myaudio').play()"></label>
                 </div>
             </div>
         </div>
@@ -127,16 +128,16 @@
             </div>
         </section>
         <section class="projects">
-                <div class="container center-horizontal">
-                    <h1 class="section-title section-title-color text-center text-uppercase">projects</h1>
-                    <div class="float-left">
-                        <div class="project-narrow-image">
-                            <img src="img/project-narrow.png">
-                            <form action="/banking/">
-                                <button class="project-btn text-uppercase" type="submit">banking</button>
-                            </form>
-                        </div>
-                        <div class="project-narrow-info">
+            <div class="container center-horizontal">
+                <h1 class="section-title section-title-color text-center text-uppercase">projects</h1>
+                <div class="float-left">
+                    <div class="project-narrow-image">
+                        <img src="img/project-narrow.png">
+                        <form action="/banking/">
+                            <button class="project-btn text-uppercase" type="submit">banking</button>
+                        </form>
+                    </div>
+                    <div class="project-narrow-info">
                             <div class="project-contents">
                             <h3 class="sub-section-title sub-section-title-decoration text-left text-uppercase">project heading</h3>
                             <span class="section-content text-left">Popularised in the 1960s with the release Letraset sheets containing Lorem.</span>
@@ -174,7 +175,7 @@
                                         <div class="project-wide-info">
                                             <div class="project-contents">
                                             <h3 class="sub-section-title sub-section-title-decoration text-left text-uppercase">project heading 2</h3>
-                                            <span class="section-content text-left">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur.</span>
+                                            <span class="section-content text-left">To begin your study of the life of Muad'Dib, then, take care that you first place him in his time: born in the 57th year of the Padishah Emperor, Shaddam IV.</span>
                                             </div>
                                         </div>
                                     </div>
@@ -188,16 +189,16 @@
                                         <div class="project-wide-info">
                                             <div class="project-contents">
                                             <h3 class="sub-section-title sub-section-title-decoration text-left text-uppercase">project heading 3</h3>
-                                            <span class="section-content text-left">Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt.</span>
+                                            <span class="section-content text-left">This book is largely concerned with Hobbits, and from its pages a reader may discover much of their character and a little of their history.</span>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="project-slider-controls">
-                                <label for="project-slider1" class="control-main1"></label>
-                                <label for="project-slider2" class="control-main2"></label>
-                                <label for="project-slider3" class="control-main3"></label>
+                                <label for="project-slider1" class="control-main1" onclick="document.getElementById('myaudio').play()"></label>
+                                <label for="project-slider2" class="control-main2" onclick="document.getElementById('myaudio').play()"></label>
+                                <label for="project-slider3" class="control-main3" onclick="document.getElementById('myaudio').play()"></label>
                             </div>
                         </div>
                     </div>

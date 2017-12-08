@@ -17,6 +17,9 @@
 .services-block .sub-section-title {
     margin-bottom: 0px;
 }
+.services-block:hover h3 {
+    color: #f6961b;
+}
 .services-btn-details {
     width: 163px;
     height: 44px;
