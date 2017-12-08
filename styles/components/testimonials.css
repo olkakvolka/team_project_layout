@@ -1,7 +1,4 @@
 /* -----TESTIMONIALS-----*/
-.service-border {
-    border-top: 1px solid #03b6e7;
-}
 
 .testimonials {
     background-color: #03b6e7;
@@ -9,30 +6,38 @@
 }
 
 .testimonials-box-style {
-    padding-top: 65px;
-    display:block;
     color: #ffffff;
+    display:block;
+    padding-top: 65px;
 }
+
 .background-quote {
-    background: url(../../img/icons/quote/quote_icon.png) no-repeat
+    background: url(../../img/quote-background.png) no-repeat;
 }
 
-.background-quote-small {
-    background: url(../../img/icons/quote/quote_icon_small.png) no-repeat 100% 30%;
+.icon-quote-small {
+    background: url(../../img/sprite.png) -162px -196px  no-repeat;
+    height: 22px;
+    width:32px;
 }
 
-.font-sections-title {              /* TODO: вынести в общий класс*/
-    font-family: 'Montserrat Extra Bold', sans-serif;
-    font-size: 32px;
-    font-weight: bolder;
-    color: #343a3b;
+.position-icon-quote-small {
+    position: absolute;
+    right: 0;
+    top: 70px;
 }
+
+.service-border {
+    border-top: 1px solid #03b6e7;
+}
+
+/*-----------Font testimonials-------*/
 
 .font-color-testimonials-title {
     color: #ffffff;
 }
 
-.testimonials-review-font-style {
+.font-testimonials-review {
     font-family: 'Domine', serif;
     font-size: 14px;
     line-height: 2em;

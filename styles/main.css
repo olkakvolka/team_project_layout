@@ -22,6 +22,8 @@
     max-width: 1140px;
 }
 
+/* ---- POSITION ---- */
+
 .center-horizontal {
     margin: 0 auto;
 }
@@ -46,6 +48,7 @@
     text-transform: uppercase;
 }
 
+
 .clearfix::after {
     content: "";
     display: table;
@@ -58,13 +61,16 @@
     -o-transition: all 1s ease 0.5s;
     transition: all 0.3s ease 0.1s;
 }
+
+
+
 .section-title {
     font-family: Montserrat, Arial, sans-serif;
     font-size: 32px;
     font-weight: 700;
     letter-spacing: -1.6px;
     margin-top: 94px;
-    line-height: 1.031;    /* TODO: проверить необходимость (из стиля насти)*/
+    line-height: 1.031;    /* TODO: проверить необходимость (из стиля насти) Посмотреть похожий класс font-sections-title */
 }
 .section-title-color {
     color: #343a3b;
@@ -72,12 +78,15 @@
 .section-title-color-testimonials {
     color: #fff;
 }
+
+/* ---- BUTTON STYLE ---- */
+
 .btn {
     background-color: #16d428;
     border-radius: 30px;
     display: inline-block;
     border: 0;
-    cursor: pointer;/* TODO: нет ли здесь смешения стилей внешнего вида и расположения?*/
+    cursor: pointer;
 }
 
 .font-btn {
@@ -101,6 +110,8 @@
     line-height: 2.308;
 }
 
+
+
 .sub-section-title-decoration {
     font-size: 18px;
     font-family: Montserrat, Arial, sans-serif;
@@ -121,6 +132,19 @@
     line-height: 1.867;
     text-align: left;
 }
+
+/* Font Styles */
+
+.font-sections-title {         /* шрифт секции */
+    font-family: 'Montserrat Extra Bold', sans-serif;
+    font-size: 32px;
+    font-weight: bolder;
+    color: #343a3b;
+}
+
+
+
+
 
 /* Project section */
 

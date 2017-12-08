@@ -8,7 +8,7 @@
     margin-top: 90px;
 }
 
-.blog-content {
+.blogs-content {
     background-color: #ffffff;
     border-collapse: collapse;
     display: table;
@@ -21,8 +21,8 @@
 .blog-cell {
     display: table-cell;
     height: 290px;
-    width: 570px;
     vertical-align: top;
+    width: 570px;
 }
 
 .blog-shadow {
@@ -33,9 +33,9 @@
 }
 .blog-cell:hover {
     box-shadow: 0 0 40px #9fa7b4;
-    transition: 0.5s;
     border-color: #16d428;
     cursor: pointer;
+    transition: 0.5s;
 }
 
 .background-img {
@@ -46,42 +46,40 @@
     border-top: 3px solid #ffac56;
 }
 
-.blog1-content-block {
-    float: right;
+.blog-content-box {
     width: 320px;
 }
 
-.blog2-content-block {
-    float: left;
+.blog-indent-left {
     margin-left: 55px;
-    width: 320px;
 }
 
 .date-blog {
     color: #343a3b;
-    margin-top: 40px;
     font-family: 'Domine Regular', serif;
     font-size: 1.2em;
     font-weight: bold;
-    margin-bottom: -5px;
 }
 
-.blog-heading {
+.date-blog-position {
+    margin: 40px auto -5px;
+}
+
+.font-blog-heading {
     color: #343a3b;
-    text-transform: uppercase;
     font-family: 'Montserrat Bold', sans-serif;
     font-size: 1.2em;
 }
 
 .blog1-information-block {
-    width: 260px;
     height: 100px;
     line-height: 1.5em;
+    width: 260px;
 }
 
 .blog2-information-block {
-    width: 400px;
     line-height: 1.5em;
+    width: 400px;
 }
 
 
@@ -89,6 +87,6 @@
     margin-top: 60px;
 }
 
-.blog-btn-size {
+.blog-btn-padding {
     padding: 15px 45px;
 }

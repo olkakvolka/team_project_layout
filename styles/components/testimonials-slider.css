@@ -1,7 +1,8 @@
 /* -----TESTIMONIALS SLIDER-----*/
 
 
-/* -----обертка для слайдера-----*/
+/* -----Wrapper for slider-----*/
+
 .testimonials-slider-wrap {
     height: 365px;
     margin: 0 auto;
@@ -9,7 +10,7 @@
     width: 1140px;
 }
 
-/* -----контейнер для переключения фото-----*/
+/* -----Box for switching photos -----*/
 
 .testimonials-clients-photos-slider-box {
     display: flex;
@@ -17,19 +18,21 @@
     flex-direction: row;
     height: 80px;
 }
-/* -----контейнер для одного фото-----*/
+
+/* -----Box for photo-----*/
 
 .testimonials-photo-box {
-    margin:auto 10px;
+    cursor: pointer;
     display:inline;
+    margin:auto 10px;
     height: 55px;
     width: 55px;
-    cursor: pointer;
+
 }
 
-/* -----фото клиентов-----*/
+/* -----Clients photos-----*/
 
-.testimonials-photo-client1{                 /* TODO: сделать через спрайт*/
+.testimonials-photo-client1{
     background: url("../../img/icons/clients/client1.png") no-repeat 50% 50%;
     background-size: 100%;
 }
@@ -44,14 +47,14 @@
     background-size: 100%;
 }
 
-/* -----тень для фото-----*/
+/* -----Photos shade ----*/
 
 .testimonials-photo-shade {
     background-color: #03b6e7;
     opacity:0.6;
 }
 
-/* -----переключение фотографий-----*/
+/* -----Switching photo----*/
 
 .switch-photo-client1,
 .switch-photo-client2,
@@ -69,7 +72,7 @@
 }
 
 
-/* -----контейнер для переключения отзывов-----*/
+/* -----Box for slider review-----*/
 
 .slider-review {
     height: 260px;
@@ -78,40 +81,42 @@
     width: 1140px;
 }
 
-/* -----контейнер для  отзыва-----*/
+/* -----Testimonials box-----*/
 
 .testimonials-review-block {
     height: 250px;
-    padding-top: 10px;
     opacity: 0;
+    padding-top: 10px;
     position: absolute;
+    transform: rotate(55deg);
+    transition: 1s;
     width: inherit;
     z-index: 0;
     -webkit-filter: hue-rotate(90deg);
-    transform: rotate(55deg);
-    transition: 1s;
+
 }
 
 .testimonials-review {
     width:1000px;
-    margin: 0 auto;
 }
 
-/* -----подчеркивание после отзыва-----*/
+/* -----Underline----*/
 .testimonials-underline {
-    margin: 30px auto;
-    width: 20px;
     border-top: 3px solid #ffffff;
+    width: 20px;
+}
+.testimonials-underline-position {
+    margin: 30px auto;
 }
 
-/* -----эффект смены отзывов-----*/
+/* -----Effect of switch review-----*/
 
 .switch-photo-client1:checked ~ .slider-review > .checked-review-client1,
 .switch-photo-client2:checked ~ .slider-review > .checked-review-client2,
 .switch-photo-client3:checked ~ .slider-review > .checked-review-client3 {
     opacity: 1;
-    z-index: 1;
     transform: none;
+    z-index: 1;
     -webkit-filter: none;
 }
 
