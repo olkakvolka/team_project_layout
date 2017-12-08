@@ -17,6 +17,9 @@
 .services-block .sub-section-title {
     margin-bottom: 0px;
 }
-.services-btn-size {
-    padding: 15px 45px;
+.services-btn-details {
+    width: 163px;
+    height: 44px;
+    margin-top: 50px;
+    margin-bottom: 90px;
 }

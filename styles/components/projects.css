@@ -1,4 +1,4 @@
-.project-button {
+.project-btn {
     border-width: 2px;
     border-color: #f6961b;
     border-style: solid;
@@ -13,10 +13,13 @@
     height: 29px;
     cursor: pointer;
 }
-.project-btn-size {
-    padding: 15px 45px;
+.projects-btn-details {
+    width: 163px;
+    height: 44px;
+    margin-top: 50px;
+    margin-bottom: 95px;
 }
-.project-button:hover {
+.project-btn:hover {
     background: #cfcbcb;
 }
 .project-contents {
@@ -28,7 +31,7 @@
     width: 358px;
     height: 294px;
 }
-.project-narrow-image .project-button {
+.project-narrow-image .project-btn {
     position: relative;
     top: -280px;
     left: 20px;
@@ -44,13 +47,13 @@
     background-color: #f6961b;
     border-color: #f6961b;
 }
-.project-narrow-info:hover .project-contents .sub-section-content {
+.project-narrow-info:hover .project-contents .section-content {
     color: #ffffff;
 }
 .project-narrow-info:hover .project-contents .sub-section-title {
     color: #ffffff;
 }
-.project-slider-contents .project-button {
+.project-slider-contents .project-btn {
     position: relative;
     top: -280px;
     left: 20px;
@@ -66,7 +69,7 @@
     background-color: #f6961b;
     border-color: #f6961b;
 }
-.project-wide-info:hover .project-contents .sub-section-content {
+.project-wide-info:hover .project-contents .section-content {
     color: #ffffff;
 }
 .project-wide-info:hover .project-contents .sub-section-title {
