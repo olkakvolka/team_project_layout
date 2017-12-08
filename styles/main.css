@@ -88,3 +88,10 @@ ul, li {        /* TODO: оставим селектор на класс?  ес�
     color: #838b8c;
     line-height: 1.867;
 }
+.transition {
+    -webkit-transition: all 1s ease 0.5s;
+    -moz-transition: all 1s ease 0.5s;
+    -ms-transition: all 1s ease 0.5s;
+    -o-transition: all 1s ease 0.5s;
+    transition: all 0.3s ease 0.1s;
+}
