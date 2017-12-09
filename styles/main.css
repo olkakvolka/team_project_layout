@@ -1,173 +1,172 @@
-@import url(components/testimonials.css);
-@import url(components/testimonials-slider.css);
-@import url(components/blog.css);
-@import url(components/page-header.css);
-@import url(components/page-services.css);
-@import url(components/page-projects.css);
-@import url(components/contacts.css);
-@import url(components/footer.css);
-@import url(components/about-us.css);
-@import url(components/features.css);
-@import url(media.css);
+/* ---- HEADER ---- */
 
-/* ---- FONTS ---- */
+/* ---- ABOUT US ---- */
 
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700,700i');
-@import url('https://fonts.googleapis.com/css?family=Domine');
-
-/* ---- GLOBAL STYLES ---- */
-
-.base {
-    font-family: Domine, "Times New Roman Regular", serif;
-    color: #838b8c;
+@media (max-width: 1080px) {
+    .about-article {
+        width: 600px;
+    }
+    .slider-about-overflow {
+        width: 450px;
+    }
 }
-.container {
-    max-width: 1140px;
+@media (max-width: 760px) {
+    .about-article {
+        width: 400px;
+    }
+    .slider-about-overflow {
+        width: 360px;
+        padding-bottom: 40px;
+    }
+    .slider-about-text {
+        font-size: 12px;
+    }
 }
 
-.center-horizontal {
-    margin: 0 auto;
+/* ---- OUR FEATURES ---- */
+
+@media (max-width: 760px) {
+    .features .section-title {
+        margin-bottom: 40px;
+    }
+}
+@media (max-width: 1060px) {
+    .features-list {
+        background-image: none;
+        margin-bottom: 50px;
+    }
+}
+@media (max-width: 760px) {
+    .features-list {
+        justify-content: center; }
+}
+@media (max-width: 1060px) {
+    .features-block {
+        width: 48%;
+        margin-left: 10px;
+    }
+}
+@media (max-width: 760px) {
+    .features-block {
+        width: 95%;
+        margin-bottom: 20px;
+    }
+}
+@media (max-width: 760px) {
+    .boost-business {
+        flex-direction: column;
+    }
+}
+@media (max-width: 760px) {
+    .boost-business-title {
+        margin-bottom: 20px;
+        text-align: center;
+        line-height: 2;
+    }
+}
+@media (max-width: 480px) {
+    .boost-business-title {
+        font-size: 16px;
+    }
 }
 
-.float-left {
-    float: left;
+/* ---- PROJECTS ---- */
+
+/* ---- SERVICES ---- */
+
+/* ---- TESTIMONIALS ---- */
+
+/* ---- OUR BLOG ---- */
+
+/* ---- QUICK CONTACT ---- */
+
+@media (max-width: 1060px) {
+    .contact-list {
+        flex-direction: column;
+        align-items: center;
+    }
+    .contact-item {
+        margin-bottom: 20px;
+    }
 }
 
-.float-right {
-    float: right;
-}
+/*--- FOOTER ---*/
 
-.inline-block {
-    display: inline-block;
-}
+@media (max-width: 1060px) {
+    .page-footer {
+        padding: 35px 0 15px 0;
+    }
 
-.text-center {
-    text-align: center;
-}
+    .page-footer .footer-line {
+        margin-top: 25px;
+    }
 
-.text-uppercase {
-    text-transform: uppercase;
-}
+    .footer-top {
+        flex-direction: column;
+    }
 
-.clearfix::after {
-    content: "";
-    display: table;
-    clear: both;
-}
-.display-none {
-    display: none
-}
-.text-right {
-    text-align: right;
-}
+    .footer-logo {
+        margin-left: 252px;
+        margin-bottom: 55px;
+    }
 
-.text-left {
-    text-align: left;
+    .footer-top-block {
+        width: 90%;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .footer-title {
+        text-align: center;
+    }
+
+    .footer-nav-list, .footer-industry-list {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .footer-subscribe {
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .footer-subscribe-input-wrap {
+        flex-direction: column;
+    }
+
+    .footer-subscribe-input {
+        padding: 15px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .footer-subscribe-btn {
+        margin-left: 0;
+        width: auto;
+    }
+
+    .footer-subscribe {
+        text-align: center;
+    }
+
+    .footer-line {
+        width: auto;
+    }
+
+    .footer-bottom-block {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-copyright {
+        margin-bottom: 20px;
+    }
+
+    .footer-social-item {
+        margin-right: 0;
+    }
+
+    .footer-social-list {
+        justify-content: space-around;
+    }
 }
-
-.row-reverse {
-    flex-direction: row-reverse;
-}
-
-.display-flex {
-    display: flex;
-}
-
-.justify-content-space-between {
-    justify-content: space-between;
-}
-.transition {
-    -webkit-transition: all 1s ease 0.5s;
-    -moz-transition: all 1s ease 0.5s;
-    -o-transition: all 1s ease 0.5s;
-    transition: all 0.3s ease 0.1s;
-}
-.section-title {
-    font-family: Montserrat, Arial, sans-serif;
-    font-size: 32px;
-    font-weight: 700;
-    letter-spacing: -1.6px;
-    margin-top: 94px;
-    line-height: 1.031;    /* TODO: проверить необходимость (из стиля насти)*/
-}
-
-.section-title-color {
-    color: #343a3b;
-}
-
-.button-main {
-    font-size: 13px;
-    font-family: Montserrat, Arial, sans-serif;
-    color: #fff;
-    background-color: #16d428;
-    line-height: 2.308;                /* это будет btn*/
-}
-
-.sub-section-title-decoration {
-    font-size: 18px;
-    font-family: Montserrat, Arial, sans-serif;
-    color: #343a3b;
-    font-weight: 700;
-    letter-spacing: -0.9px;
-}
-
-.sub-section-title {     /* TODO: вынести в настины стили */
-    line-height: 1.833;
-    text-align: left;
-}
-
-.section-content {   /* TODO: стиль должен подойти и для димы с валентином*/
-    font-size: 15px;
-    font-family: Domine, "Times New Roman Regular", serif;
-    color: #838b8c;
-    line-height: 1.867;
-    text-align: left;
-}
-
-.btn {
-    font-family: Montserrat, Arial, sans-serif;
-    font-size: 13px;
-    background-color: #16d428;
-    text-decoration: none;
-    color: #fff;
-    padding: 15px 25px;
-    border-radius: 30px;
-    text-transform: uppercase;
-    border: none;
-    cursor: pointer;;
-    display: inline-block;     /* TODO: нет ли здесь смешения стилей внешнего вида и расположения?*/
-}
-
-.btn:hover {
-    background-color: #13b422;
-}
-/*.btn {*/
-    /*background-color: #16d428;*/
-    /*border-radius: 30px;*/
-    /*display: inline-block;*/
-    /*border: 0;*/
-    /*cursor: pointer;*/
-
-/*}*/
-
-/*.font-btn {*/
-    /*font-family: Montserrat, Arial, sans-serif;*/
-    /*font-size: 13px;*/
-    /*font-weight: bold;*/
-    /*text-decoration: none;*/
-    /*color: #fff;*/
-/*}*/
-
-/*.btn:hover {*/
-    /*background-color: #13b422;*/
-    /*box-shadow: 0 0 10px #8b8f89;*/
-/*}*/
-
-.button-main {
-    font-size: 13px;
-    font-family: Montserrat, Arial, sans-serif;
-    color: rgb(255, 255, 255);
-    background-color: rgb(22, 212, 40);
-    line-height: 2.308;
-}
-
