@@ -25,7 +25,7 @@
     text-decoration: none;
     color: #fff;
     margin-right: 40px;
-    font-size: 14px;    /* dынести*/
+    font-size: 14px; 
 }
 .menu-item:hover {
     color: #f6961b;
@@ -39,6 +39,9 @@
     font-weight: 700;
     color: #fff;
     text-decoration: none;
+}
+.text-phone:hover {
+    color: #f6961b;
 }
 .icon-phone {
     width: 20px;
@@ -63,7 +66,7 @@
     width: 264px;
     height: 283px;
     background: #03b6e7;
-    margin-right: 30px;           /* сделать отдельным классом!*/
+    margin-right: 30px; 
 }
 .slider-header-box {
     width: 260px;

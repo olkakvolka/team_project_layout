@@ -1,3 +1,5 @@
+/* --- ABOUT US --- */
+
 .about-article {
     width: 679px;
     margin: 0 auto;
@@ -15,6 +17,7 @@
     height: 1px;
     margin: 68px 0 58px 0;
 }
+
 .switch-about1:checked ~ .slider-about-controls .control-about3,
 .switch-about2:checked ~ .slider-about-controls .control-about1,
 .switch-about3:checked ~ .slider-about-controls .control-about2 {
@@ -29,7 +32,7 @@
     -o-transform: rotate(180deg);
     transform: rotate(180deg);
     border-radius: 15px;
-    margin-top: 8px;
+    margin-top: -8px;
     cursor: pointer;
     opacity: 0.3;
 }
@@ -38,7 +41,6 @@
 .switch-about3:checked ~ .slider-about-controls .control-about2:hover {
     opacity: 1;
 }
-
 .switch-about1:checked ~ .slider-about-controls .control-about2,
 .switch-about2:checked ~ .slider-about-controls .control-about3,
 .switch-about3:checked ~ .slider-about-controls .control-about1 {
@@ -48,7 +50,7 @@
     width: 32px;
     background: url(../../img/sprite.png) -56px -312px no-repeat transparent;
     border-radius: 15px;
-    margin-top: 8px;
+    margin-top: -8px;
     cursor: pointer;
     opacity: 0.3;
 }
@@ -66,14 +68,12 @@
 .switch-about3:checked ~ .slider-about-overflow .slider-about-container {
     margin-left: -330px;
 }
-
 .slider-about-position {
     padding-right: 100px;
 }
-
 .slider-about-overflow {
     width: 1005px;
-    overflow: hidden;
+    overflow: hidden;  
 }
 .slider-about-text {
     font-size: 16px;
@@ -84,10 +84,6 @@
 .slider-about-text:hover {
     color: #3e3e3e;
 }
-
-
-
-
-
-
-
+.slide-about {
+    margin-bottom: 91px;
+}

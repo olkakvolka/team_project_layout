@@ -124,27 +124,44 @@
     text-align: left;
 }
 
-
 .btn {
-    background-color: #16d428;
-    border-radius: 30px;
-    display: inline-block;
-    border: 0;
-    cursor: pointer;/* TODO: нет ли здесь смешения стилей внешнего вида и расположения?*/
-}
-
-.font-btn {
     font-family: Montserrat, Arial, sans-serif;
     font-size: 13px;
-    font-weight: bold;
+    background-color: #16d428;
     text-decoration: none;
     color: #fff;
+    padding: 15px 25px;
+    border-radius: 30px;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;;
+    display: inline-block;     /* TODO: нет ли здесь смешения стилей внешнего вида и расположения?*/
 }
 
 .btn:hover {
     background-color: #13b422;
-    box-shadow: 0 0 15px #8b8f89;
 }
+/*.btn {*/
+    /*background-color: #16d428;*/
+    /*border-radius: 30px;*/
+    /*display: inline-block;*/
+    /*border: 0;*/
+    /*cursor: pointer;*/
+
+/*}*/
+
+/*.font-btn {*/
+    /*font-family: Montserrat, Arial, sans-serif;*/
+    /*font-size: 13px;*/
+    /*font-weight: bold;*/
+    /*text-decoration: none;*/
+    /*color: #fff;*/
+/*}*/
+
+/*.btn:hover {*/
+    /*background-color: #13b422;*/
+    /*box-shadow: 0 0 10px #8b8f89;*/
+/*}*/
 
 .button-main {
     font-size: 13px;

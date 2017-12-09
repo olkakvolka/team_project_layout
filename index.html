@@ -3,11 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/main.css">
-    <title>
-        Consult plus
-    </title>
+    <title>Consult plus</title>
 </head>
 <body class="base">
 <header class="page-header text-uppercase">
@@ -18,29 +17,31 @@
             <nav class="inline-block float-left">
                 <ul class="menu menu-decoration">
                     <li class="float-left">
-                        <a class="menu-item transition" href="#">home</a>
+                        <a class="menu-item transition" href="#">Home</a>
                     </li>
                     <li class="float-left">
-                        <a class="menu-item transition" href="#">about us</a>
+                        <a class="menu-item transition" href="#">About us</a>
                     </li>
                     <li class="float-left">
-                        <a class="menu-item transition" href="#">industry</a>
+                        <a class="menu-item transition" href="#">Industry</a>
                     </li>
                     <li class="float-left">
-                        <a class="menu-item transition" href="#">services</a>
+                        <a class="menu-item transition" href="#">Services</a>
                     </li>
                     <li class="float-left">
-                        <a class="menu-item transition" href="#">pages</a>
+                        <a class="menu-item transition" href="#">Pages</a>
                     </li>
                     <li class="float-left">
-                        <a class="menu-item transition" href="#">contact us</a>
+                        <a class="menu-item transition" href="#">Contact Us</a>
                     </li>
                 </ul>
             </nav>
             <div class="contact float-right">
                 <div class="icon-phone inline-block"></div>
                 <a href="#" class="text-phone text-phone-position text-uppercase">+91 5685 6664 555</a>
-                <div class="icon-email inline-block"></div>
+                <a href="#">
+                    <div class="icon-email inline-block"></div>
+                </a>
             </div>
         </div>
         <div class="welcome-title text-center">
@@ -129,7 +130,7 @@
             </div>
             <a href="#" class="btn about-us-btn">Read More</a>
             <div class="section-line-about-us"></div>
-            <div class="slide-industry center-horizontal">
+            <div class="slide-about clearfix">
                 <input checked type="radio" name="slider-about" class="switch-about1 display-none" id="switch-about1">
                 <input type="radio" name="slider-about" class="switch-about2 display-none" id="switch-about2">
                 <input type="radio" name="slider-about" class="switch-about3 display-none" id="switch-about3">
@@ -141,34 +142,34 @@
                 <div class="slider-about-overflow center-horizontal">
                     <div class="slider-about-container transition">
                         <a href="#" class="slider-about-position">
-                            <p class="slider-about-text slider-about-position inline-block text-uppercase float-left transition">
+                            <span class="slider-about-text slider-about-position inline-block text-uppercase float-left transition">
                                 Codecanyon
-                            </p>
+                            </span>
                         </a>
                         <a href="#" class="slider-about-position">
-                            <p class="slider-about-text slider-about-position inline-block text-uppercase float-left transition">
+                            <span class="slider-about-text slider-about-position inline-block text-uppercase float-left transition">
                                 Videohive
-                            </p>
+                            </span>
                         </a>
                         <a href="#" class="slider-about-position">
-                            <p class="slider-about-text slider-about-position inline-block text-uppercase float-left transition">
+                            <span class="slider-about-text slider-about-position inline-block text-uppercase float-left transition">
                                 Audiojungle
-                            </p>
+                            </span>
                         </a>
                         <a href="#" class="slider-about-position">
-                            <p class="slider-about-text slider-about-position inline-block text-uppercase float-left transition">
+                            <span class="slider-about-text slider-about-position inline-block text-uppercase float-left transition">
                                 Graphicriver
-                            </p>
+                            </span>
                         </a>
                         <a href="#" class="slider-about-position">
-                            <p class="slider-about-text slider-about-position inline-block text-uppercase float-left transition">
+                            <span class="slider-about-text slider-about-position inline-block text-uppercase float-left transition">
                                 Photodune
-                            </p>
+                            </span>
                         </a>
                         <a href="#" class="slider-about-position">
-                            <p class="slider-about-text slider-about-position inline-block text-uppercase float-left transition">
+                            <span class="slider-about-text slider-about-position inline-block text-uppercase float-left transition">
                                 Photodune
-                            </p>
+                            </span>
                         </a>
 
                     </div>
@@ -285,7 +286,7 @@
                 </div>
             </div>
             <form action="/full projects/">
-                <button class="button-main text-uppercase" type="submit">
+                <button class="btn text-uppercase" type="submit">
                     full projects
                 </button>
             </form>
@@ -323,7 +324,7 @@
                     </span>
             </div>
             <form action="/full cervices/">
-                <button class="button-main text-uppercase" type="submit">
+                <button class="btn text-uppercase" type="submit">
                     full cervices
                 </button>
             </form>
@@ -436,7 +437,7 @@
             <!--------Кнопка перехода на полноразмерный блог------->
             <div class="full-blog-btn-vertical-position text-center">
                 <a class="full-blog-transition" href="#">
-                    <button class="btn font-btn blog-btn-size text-uppercase">full blog</button>
+                    <button class="btn blog-btn-size text-uppercase">full blog</button>
                 </a>
             </div>
         </div>
@@ -453,7 +454,7 @@
                         <div class="contact-item-desc">
                             <div class="contact-item-title sub-section-title-decoration text-uppercase">
                                 Email
-                            </div>   <!-- TODO: антон, возможно див лучше заменить на h3?-->
+                            </div>
                             <div class="contact-item-text">
                                 info@consultplus.com
                             </div>

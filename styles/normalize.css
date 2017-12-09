@@ -418,7 +418,9 @@ summary {
 canvas {
     display: inline-block;
 }
-
+.features {
+    border: 1px solid #e7eff1;
+}
 /**
  * Add the correct display in IE.
  */
