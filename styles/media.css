@@ -1,20 +1,73 @@
-/* ---- HEADER ---- */
-
 /* ---- ABOUT US ---- */
+
+@media (max-width: 1080px) {
+    .about-article {
+        width: 600px;
+    }
+    .slider-about-overflow {
+        width: 450px;
+    }
+}
+@media (max-width: 760px) {
+    .about-article {
+        width: 400px;
+    }
+    .slider-about-overflow {
+        width: 360px;
+        padding-bottom: 40px;
+    }
+    .slider-about-text {
+        font-size: 12px;
+    }
+}
 
 /* ---- OUR FEATURES ---- */
 
-/* ---- PROJECTS ---- */
-
+@media (max-width: 760px) {
+    .features .section-title {
+        margin-bottom: 40px;
+    }
+}
 @media (max-width: 1060px) {
-    aspect-ratio: 2/5;
+    .features-list {
+        background-image: none;
+        margin-bottom: 50px;
+    }
+}
+@media (max-width: 760px) {
+    .features-list {
+        justify-content: center; }
+}
+@media (max-width: 1060px) {
+    .features-block {
+        width: 48%;
+        margin-left: 10px;
+    }
+}
+@media (max-width: 760px) {
+    .features-block {
+        width: 95%;
+        margin-bottom: 20px;
+    }
+}
+@media (max-width: 760px) {
+    .boost-business {
+        flex-direction: column;
+    }
+}
+@media (max-width: 760px) {
+    .boost-business-title {
+        margin-bottom: 20px;
+        text-align: center;
+        line-height: 2;
+    }
+}
+@media (max-width: 480px) {
+    .boost-business-title {
+        font-size: 16px;
+    }
 }
 
-/* ---- CERVICES ---- */
-
-/* ---- TESTIMONIALS ---- */
-
-/* ---- OUR BLOG ---- */
 
 /* ---- QUICK CONTACT ---- */
 
