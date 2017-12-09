@@ -17,10 +17,12 @@
     width: 163px;
     height: 44px;
     margin-top: 50px;
-    /* margin-bottom: 95px; */
 }
 .project-btn:hover {
     background: #cfcbcb;
+}
+.container-project {
+    width: 1140px;
 }
 .project-contents {
     padding-left: 25px;
